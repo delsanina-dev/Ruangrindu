@@ -1,0 +1,44 @@
+body{
+    background:#0f0f0f;
+    color:white;
+    font-family:Helvetica,Arial, sans-serif;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    flex-direction:column;
+}
+
+h1{
+    font-size:45px;
+    text-align:center;
+}
+h2{ font-size:20px;
+}
+#lyric{
+    margin:30px;
+    font-size:28px;
+    min-height:40px;
+}
+
+#playBtn{
+    width:180px;
+    height:55px;
+
+    border:none;
+    border-radius:50px;
+
+    background:#e190cb;
+    color:white;
+
+    font-size:22px;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+#playBtn:hover{
+    transform:scale(1.08);
+    box-shadow:0 0 20px #e190cb;
+}
